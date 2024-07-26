@@ -1,0 +1,1270 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    
+    
+}
+#main{
+    padding: 0;
+    margin: 0;
+    background-color:white;
+    
+  
+ 
+    
+}
+/*============================Social media icon header===============================================*/
+#main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.social-media-icons{
+    float: left;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    font-size: 1em;
+    padding-left: 20px;
+    background-color:  rgb(21, 108, 158);
+   
+
+
+   
+  
+}
+.social-media-icons i{
+    color: white;
+}
+
+/*============================Main header========================================================================*/
+/*=============================================*/
+.header {
+    overflow: hidden;
+    background-color: rgb(4, 0, 54);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;   
+    
+
+
+  
+}
+ul {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.header img{
+    height: 8vh;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+    display: block;
+    padding-left: 20px;
+    color: whitesmoke;
+   
+
+}
+#head-section ul{
+    list-style: none;
+    padding-right: 35px;
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+
+ 
+}
+#head-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color:  rgb(103, 91, 214);;
+ }
+ #head-section li :hover{
+    background-color: rgb(248, 248, 250);
+    border-radius: 20px;
+    color: rgb(3, 1, 82);
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    width: auto;
+ }
+
+a{
+    text-decoration: none;
+    color: rgb(235, 234, 240);
+
+}
+
+
+ .menu-bar{
+   display: none;
+ 
+
+}
+
+
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Bannner-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+#banner{
+    display: flex;
+    height: fit-content;
+    border-radius: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border: 100px rgb(8, 118, 151);
+    background-color: rgb(4, 0, 54);
+    margin-top: 15vh;
+
+  
+}
+.banner-section{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    justify-content: start;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+
+
+}
+.banner-sub-sec{
+  width: 60vw;  
+  
+
+   
+}
+.banner-section h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+
+   
+}
+.banner-section h2{
+    font-size: 40px;
+    font-weight:500;
+    color: white;
+
+}
+.banner-section h1{
+ font-size: 50px;
+ color: white;
+ font-weight: 500;
+ overflow: hidden; 
+ border-right: .10em solid rgb(243, 241, 238);
+ white-space: nowrap;
+ letter-spacing: .10em; 
+ animation: typing 3.5s steps(30,end)  forwards,
+ blink .5s step-end infinite;
+    
+
+}
+@keyframes typing{
+    from{width: 0}
+    to{width: 80%}
+}
+@keyframes blink{
+    50%{border-color: 
+        transparent
+
+    }
+}
+
+
+
+.banner-img img{
+    height: 70vh;
+    border-radius: 20px;
+    border: none;
+}
+
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>EXPERIENCE SECTION>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+#Experience{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+   
+   
+}
+.exp-heading h1{
+    display: inline-grid;
+    justify-items: center;
+    width: 100%;
+    margin-top: 15px;
+    place-items: center;
+    font-size: 80px;
+    color:  rgb(4, 0, 54);
+}
+
+.exp-sec-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 25px;
+}
+.exp-sec-1{
+    width: 20vw;
+    height: 45vh;
+    border: 3px solid rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+
+}
+
+.exp-sec-2{
+    width: 20vw;
+    height: 45vh;
+    border: 3px solid rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+
+.exp-sec-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 20px;
+   
+    
+
+}
+
+/*.exp-sec-1:hover, .exp-sec-2:hover{
+    width: 20vw;
+    height: 40vh;
+}*/
+.exp-sec-3{
+    width: 20vw;
+    height: 45vh;
+    border: 3px solid rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.exp-sec-4{
+    width: 20vw;
+    height: 45vh;
+    border: 3px solid rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+
+
+.exp-sec-1 img, .exp-sec-2 img, .exp-sec-3 img, .exp-sec-4 img{
+    transition: transform 0.3s ease;
+    width: 120px;
+    height: 120x;
+    object-fit: cover;
+    border-radius: 1000px;
+    padding-bottom: 10px;
+}
+
+
+.exp-sec-1 h2, .exp-sec-2 h2, .exp-sec-3 h2 , .exp-sec-4 h2 {
+    font-size: 1.2em;
+}
+
+.exp-sec-1 h3, .exp-sec-2 h3, .exp-sec-3 h3 , .exp-sec-4 h3 {
+    font-size: 1.2em;
+}
+
+
+    
+
+.exp-sec-1 img:hover, .exp-sec-2 img:hover, .exp-sec-3 img:hover , .exp-sec-4 img:hover{
+    transform: scale(1.2);
+
+}
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Skill-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+#skill{
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+    border: 5px solid   rgb(143, 137, 137);
+    border-radius: 20px;
+
+    
+   
+}
+.skill-heading h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color:  rgb(4, 0, 54);
+}
+
+.skill-sec-a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 200px;
+ 
+    
+
+}
+.skill-sec-1{
+    width: 15vw;
+    height: 40vh;
+    border: 3px solid  rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.skill-sec-2{
+    border: 3px solid   rgb(143, 137, 137);
+    border-radius: 10px;
+    width: 15vw;
+    height: 40vh;
+    display: grid;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+.skill-sec-3{
+    border: 3px solid   rgb(143, 137, 137);
+    border-radius: 10px;
+    width: 15vw;
+    height: 40vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+
+
+.skill-sec-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 20px;
+    width: 100%;
+    
+
+}
+
+/*.exp-sec-1:hover, .exp-sec-2:hover{
+    width: 20vw;
+    height: 40vh;
+}*/
+.skill-sec-4{
+    border: 3px solid  rgb(143, 137, 137);
+    border-radius: 10px;
+    width: 15vw;
+    height: 40vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+
+}
+
+.skill-sec-5{
+    width: 15vw;
+    height: 40vh;
+    border: 3px solid  rgb(143, 137, 137);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+.skill-sec-6{
+    width: 15vw;
+    height: 40vh;
+    border: 3px solid  rgb(143, 137, 137);
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.skill-sec-1 img, .skill-sec-2 img, .skill-sec-3 img, .skill-sec-4 img, .skill-sec-5 img, .skill-sec-6 img{
+    transition: transform 0.3s ease;
+    width: 8vw;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-radius: 1000px;
+    border: 2px solid rgb(187, 183, 183);
+}
+    
+
+.skill-sec-1 img:hover, .skill-sec-2 img:hover, .skill-sec-3 img:hover , .skill-sec-4 img:hover, .skill-sec-5 img:hover, .skill-sec-6 img:hover{
+    transform: scale(1.2);
+
+}
+#skill h2{
+    font-size: 20px;
+    color:rgb(4, 0, 54); 
+    
+} 
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Learning section-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+#learn{
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+
+
+    
+   
+}
+.learn-heading-sec h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color:  rgb(4, 0, 54);
+}
+
+.learn-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.learn-sec-1{
+    width: 50%;
+    display: grid;
+    place-content: center;
+    transform-style: preserve-3d;
+    transition: transform 0.3s;
+}
+.learn-sec-1 img{
+    width: 25vw;
+    height: 40vh;
+    transition: transform 0.3s ;
+    box-shadow: 0.3;
+
+   
+}
+
+
+.learn-sec-1 img:hover{
+    transform: translate3d(20);
+    transform: scale(1.3);
+    box-shadow: 0 20px 30px black;
+
+
+}
+
+.learn-sec-2{
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(4, 0, 54);
+    border-radius: 20px;
+   
+}
+.learn-sec-2 span{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>About-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+
+#Abt{
+    background-color: white;
+    padding: 0;
+    margin: 30px;
+
+
+    
+   
+}
+.about-heading-sec h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color:  rgb(4, 0, 54);
+}
+
+.about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.about-sec span{
+    display: grid;
+    color:  rgb(4, 0, 54);
+    font-weight: 500;
+    place-content: center;
+    font-size: 25px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 50vw;
+    padding: 20px;
+    box-shadow:  10px 10px 10px 0px rgb(184, 173, 173) ;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.about-sec span:hover{
+    box-shadow: 0 20px 30px black;
+}
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Eduction-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+
+#edu{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    
+   
+}
+.edu-heading h1{
+    display: inline-grid;
+    justify-items: center;
+    width: 100%;
+    margin-top: 25px;
+     place-items: center;
+     font-size: 80px;
+     color:  rgb(4, 0, 54);
+}
+
+.edu-sec-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin-top: 20px;
+    object-fit: scale-down;
+}
+.edu-sec-1{
+    width: 25vw;
+    height: 50vh;
+    border: 3px solid rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.edu-sec-2{
+    width: 25vw;
+    height: 50vh;
+    border: 3px solid rgb(143, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.edu-sec-1 img, .edu-sec-2 img{
+    transition: transform 0.3s ease;
+    width: 150px;
+    height: 150x;
+    object-fit: fill;
+    border-radius: 1000px;
+    padding-bottom: 10px;
+}
+    
+
+.edu-sec-1 img:hover, .edu-sec-2 img:hover{
+    transform: scale(1.2);
+
+}
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Contact info-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+#form{
+    background-color: white;
+    border: 10px ;
+    margin: 20px;
+    margin-top: 70px;
+    padding: 0;
+    width: auto;
+    overflow: hidden;
+    border-top: 5px solid rgb(129, 125, 125);
+    
+    border-radius: 10px;
+    
+   
+}
+.form-heading h1{
+    display: inline-grid;
+   place-content: center;
+    width: 100vw;
+    margin-top: 20px;
+    place-items: center;
+    font-size: 80px;
+    color:  rgb(4, 0, 54);
+}
+.form-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+.form-section-1 input{
+    width: 25vw;
+    height: 8vh;
+    border:2px solid rgb(165, 159, 159);
+    border-radius: 10px;
+    font-size: 25px;
+}
+.form-section-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.form-section-2 textarea{
+    width: 55vw;
+    height: 30vh;
+    border: 2px solid rgb(165, 159, 159);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.btn input{
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px ;
+    background-color: rgb(4,0,54); 
+}
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Footer info-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.footer h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+
+}
+.footer h4{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.footer img {
+    width: 25vw;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+
+
+
+/*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Responsive Mobile-section>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+
+@media screen and (max-width: 66em) {
+   
+ /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Main- Header - Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+    #head-section {
+       width: 100%;
+       height: 50vh;
+       top: 0;
+       left: 0;
+       background-color: rgb(2, 30, 53);
+       position: absolute;
+       display: flex;
+        justify-content: center;
+       align-items: center;
+       opacity: 1;
+       gap: 20px;
+       z-index: 999;
+    
+    }
+    #head-section {
+        /* display: none; */
+        visibility: hidden;
+ul {
+    flex-direction: column;
+}
+       
+    }
+
+
+      
+      .menu-bar {
+        float: left;
+        justify-content: center;
+        border: none;
+        display: flex;
+        margin-right: 10px;
+        background: transparent; 
+        color: white;
+        height: 100%;
+        font-size: 25px;
+        cursor: pointer;
+        pointer-events: auto;
+        position: relative;
+    
+       }
+       .bar-menu-btn{
+        display: block;
+       
+       }
+       .bar-close-btn{
+        visibility: hidden;
+        z-index: 999;
+        
+       }
+        
+        
+    
+    /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Bannner-section-mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+        
+    
+    #banner{
+        height: 50vh;
+        display: grid;
+        background-image: url(media/photo/bg\ photo.jpg);
+        background-size: cover;
+        object-fit: fill;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin: 20px;
+        margin-top: 100px;
+        padding: 20px ;
+        border: 100px rgb(8, 118, 151);
+        background-color: rgb(4, 0, 54);
+    }
+    .banner-section{
+        width: fit-content;
+        overflow:hidden;   
+        display: grid;
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        
+    
+    }
+    .banner-sub-sec{
+        width: fit-content;
+        overflow: hidden;
+    }
+  
+    .banner-section h3{
+        display: none;
+
+    }
+    .banner-section h2{
+        font-size: 0.8em;
+        font-weight: 700;
+        color: rgb(39, 85, 184);
+        display: flex;
+        align-items: center;
+        height: auto;
+
+       
+    
+    }
+    .banner-section h1{
+     border: none;
+     font-size: 0.8em;
+     color: rgb(39, 85, 184);
+     font-weight: 700;
+     place-content: start;
+     display: grid;
+     width: auto;
+     animation: none;
+
+    }
+
+
+    .banner-img {
+         display: none;
+         object-fit: cover;
+         width: 20px;
+         height: auto;
+        }
+        /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Experience-section-Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+       
+#Experience{
+    background-color: white;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  
+}
+.exp-heading h1{
+            display: grid;
+            width: 100vw;
+            margin-top: 25px;
+            place-items: center;
+            font-size: 60px;
+            color:  rgb(4, 0, 54);
+        }
+    .exp-sec-a{
+        display: grid;
+        place-items: center;
+        width: auto;
+        height: 100%;
+        gap: 50px;
+  
+
+    }
+    .exp-sec-1{
+        width: 60vw;
+        height: 50vh;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        display: grid;
+        place-items: center; 
+        overflow: hidden;
+    }
+
+    .exp-sec-2{
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        width: 60vw;
+        height: 50vh;
+        display: grid;
+       place-items: center;
+       overflow: hidden;
+    }
+
+
+    .exp-sec-b{
+        display: grid;
+        place-content: center;
+        gap:50px;
+        margin-top: 50px;
+        height: 100%;
+        width: 100%;
+    
+        
+
+    }
+
+    /*.exp-sec-1:hover, .exp-sec-2:hover{
+        width: 20vw;
+        height: 40vh;
+    }*/
+    .exp-sec-3{
+        width: 60vw;
+        height: 50vh;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+    }
+
+    .exp-sec-4{
+        width: 60vw;
+        height: 50vh;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .exp-sec-1 img, .exp-sec-2 img, .exp-sec-3 img, .exp-sec-4 img{
+        transition: transform 0.3s ease;
+        object-fit: fill;
+        border-radius: 1000px;
+    }
+        
+
+    .exp-sec-1 img:hover, .exp-sec-2 img:hover, .exp-sec-3 img:hover , .exp-sec-4 img:hover{
+        transform: scale(1.2);
+
+    }
+
+
+
+
+        /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Experience-section-Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+
+#skill{
+    display: grid;
+    place-content: center;
+}
+
+    .skill-heading h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        color:  rgb(4, 0, 54);
+    }
+    
+    .skill-sec-a{
+        display: grid;
+        place-content: center ;
+        margin-top: 100px;
+        gap: 25px;
+        
+    
+    }
+    .skill-sec-1{
+        width: 40vw;
+        height: 50vh;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center; 
+        overflow: hidden ;
+    }
+    
+    .skill-sec-2{
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        width: 40vw;
+        height: 50vh;
+        display: grid;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        overflow: hidden ;
+    }
+    .skill-sec-3{
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        width: 40vw;
+        height: 50vh;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        overflow: hidden ;
+    }
+    
+    
+    
+    
+    .skill-sec-b{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        margin-top: 25px;
+       
+        
+    
+    }
+    
+    /*.exp-sec-1:hover, .exp-sec-2:hover{
+        width: 20vw;
+        height: 40vh;
+    }*/
+    .skill-sec-4{
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        width: 40vw;
+        height: 50vh;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        overflow: hidden ;
+    }
+    
+    .skill-sec-5{
+        width: 40vw;
+        height: 50vh;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        overflow: hidden ;
+    }
+    .skill-sec-6{
+        width: 40vw;
+        height: 50vh;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .skill-sec-1 img, .skill-sec-2 img, .skill-sec-3 img, .skill-sec-4 img, .skill-sec-5 img, .skill-sec-6 img{
+        transition: transform 0.3s ease;
+        width: 25vw;
+        object-fit: cover;
+        padding-bottom: 10px;
+        border-radius: 1000px;
+        border: 5px solid rgb(4, 0, 54);
+    }
+        
+    
+    .skill-sec-1 img:hover, .skill-sec-2 img:hover, .skill-sec-3 img:hover , .skill-sec-4 img:hover, .skill-sec-5 img:hover, .skill-sec-6 img:hover{
+        transform: scale(1.2);
+    
+    }
+    #skill h2{
+        font-size: 30px;
+        color:rgb(4, 0, 54); 
+        font-weight: 800;
+    }
+
+
+
+        /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>learn-section-Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+
+    #learn{
+        background-color: white;
+        padding: 30px;
+        margin: 30px;
+    
+    
+        
+       
+    }
+    .learn-heading-sec h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color:  rgb(4, 0, 54);
+    }
+    
+    .learn-sec{
+        display: grid;
+       place-content: center;
+        margin: 20px;
+      
+    }
+    .learn-sec-1{
+        width: 50vw;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+       
+
+    }
+    .learn-sec-1 img{
+        width: 50vw;
+        height: 40vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        transition: transform 0.3s ;
+        box-shadow: 0.3;
+    
+       
+    }
+    
+    
+    .learn-sec-1 img:hover{
+        transform: scale(1.2);
+        box-shadow: 0 20px 30px black;
+    
+    
+    }
+    
+    .learn-sec-2{
+        width: 100%;
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(4, 0, 54);
+        border-radius: 20px;
+       
+    }
+    .learn-sec-2 span{
+        font-size: 30px;
+        color: white;
+       
+    }
+    
+        /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>education-section-Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+ 
+        /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>About-section-Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+
+    .edu-heading h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+        color:  rgb(4, 0, 54);
+    }
+    
+    .edu-sec-a{
+        display: grid;
+        place-content: center ;
+        margin-top: 100px;
+        gap: 25px;
+        
+    
+    }
+
+    .edu-sec-1{
+        width: 300px;
+        height: 350px;
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        padding: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .edu-sec-2{
+        border: 5px solid  rgb(4, 0, 54);
+        border-radius: 10px;
+        width: 300px;
+        height: 350px;
+        display: grid;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+        /*=============================================================================================================*/
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Contact-section-Mobile>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+================================================================================================================*/
+
+    
+.form-heading h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color:  rgb(4, 0, 54);
+    margin-top: 20px;
+}
+.form-section-1{
+    display: grid;
+    place-content: center;
+    
+    
+}
+.form-section-1 input{
+    width: 100%;
+}
+.btn input{
+  width:100%;
+
+}
+}  
